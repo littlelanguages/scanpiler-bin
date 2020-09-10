@@ -1,7 +1,7 @@
-import * as CLI from "https://raw.githubusercontent.com/littlelanguages/deno-lib-console-cli/0.0.1/mod.ts";
+import * as CLI from "https://raw.githubusercontent.com/littlelanguages/deno-lib-console-cli/0.0.5/mod.ts";
 
-import { denoCommand } from "https://raw.githubusercontent.com/littlelanguages/scanpiler-tool-deno/0.0.1/mod.ts";
-import { vizCommand } from "https://raw.githubusercontent.com/littlelanguages/scanpiler-tool-viz/0.0.1/mod.ts";
+import { denoCommand } from "https://raw.githubusercontent.com/littlelanguages/scanpiler-tool-deno/0.0.3/mod.ts";
+import { vizCommand } from "https://raw.githubusercontent.com/littlelanguages/scanpiler-tool-viz/0.0.3/mod.ts";
 
 const denoCmd = new CLI.ValueCommand(
   "deno",
